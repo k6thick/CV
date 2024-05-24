@@ -3,79 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Webpage</title>
+    <title>Resume - Karthick J</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: url('abstract-background.jpg') no-repeat center center fixed;
+            background-size: cover;
             color: #333;
         }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        section {
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.9);
             padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        h1, h2 {
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .contact-info, .declaration {
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        .declaration {
+            margin-top: 40px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>Karthick J</h1>
-        <p>Software Test Engineer, QA Analyst</p>
-    </header>
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm John Doe, a passionate web developer with a love for creating dynamic and responsive websites. In my free time, I enjoy blogging about technology and exploring new web development trends.</p>
-    </section>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>Here are some of my recent projects:</p>
-        <ul>
-            <li>Project One</li>
-            <li>Project Two</li>
-            <li>Project Three</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
-    </section>
-    <footer>
-        <p>&copy; 2024 John Doe. All rights reserved.</p>
-    </footer>
+        <p class="contact-info">
+            <strong>Software Test Engineer</strong><br>
+            +919944506631<br>
+            <a href="mailto:karthickjeeva1993@gmail.com">karthickjeeva1993@gmail.com</a><br>
+            <a href="https://www.linkedin.com/in/karthickjeevamdu">linkedin.com/in/karthickjeevamdu</a>
+        </p>
+
+        <div class="section">
+            <h2>Summary</h2>
+            <p>Driven by my curiosity and desire to explore the intersection of technology and finance, I transitioned to the IT sector. Over the intern of a year, I immersed myself in the world of technology, gaining proficiency in Software Development Architecture and Business Development Process, enabling me to bridge the gap between business requirements and IT solutions.</p>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <p><strong>Elysium Technologies Private Limited · Intern</strong><br>
+            Apr 2022 - Dec 2022 · 9 mos<br>
+            Madurai, Tamil Nadu, India · On-site</p>
+            <ul>
+                <li>Contributed to the creation and implementation of detailed test plans and test cases.</li>
+                <li>Performed functional, regression, and system testing for web-based applications to ensure software quality and performance.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <ul>
+                <li>Trained in Quality Assurance and Manual Testing with comprehensive knowledge of various Testing Methodologies.</li>
+                <li>Proficient in all phases of the Software Test Life Cycle (STLC).</li>
+                <li>Strong understanding of Testing Methodologies, Testing Techniques, and Agile Processes.</li>
+                <li>Experienced in Defect Reporting and Tracking using JIRA.</li>
+                <li>Skilled in understanding and analyzing test requirements.</li>
+                <li>Proficient in designing Test Scenarios, Test Cases, and Requirement Traceability Matrices.</li>
+                <li>Capable of creating and executing test data, generating test reports, analyzing results, and reporting bugs.</li>
+                <li>Experienced in performing Smoke Testing, Adhoc Testing, and Regression Testing.</li>
+                <li>Effective team player with experience in providing knowledge transfer as needed.</li>
+                <li>Experienced in creating automated test suites using Selenium and Java for e-commerce validation.</li>
+                <li>Knowledgeable in Test Design using Behavior Driven Development (BDD) frameworks.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Testing Tools:</strong> Selenium, JUnit, TestNG, QTP, LoadRunner, JIRA</li>
+                <li><strong>Programming Languages:</strong> Java</li>
+                <li><strong>Automation Frameworks:</strong> Selenium WebDriver, Cucumber</li>
+                <li><strong>Continuous Integration:</strong> Jenkins, Git, Maven</li>
+                <li><strong>Operating Systems:</strong> Windows, Linux</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Degree:</strong> B.Tech (IT) 2011 - 2015, Kalasalingam University, CGPA 6.27</li>
+                <li><strong>HSC:</strong> 2011, A.P.T Dorairaj Hr.Sec.School, Madurai, 68%</li>
+                <li><strong>SSLC:</strong> 2009, A.P.T.Dorairaj Hr.Sec.School, Madurai, 75%</li>
+            </ul>
+        </div>
+
+        <div class="declaration">
+            <p><strong>Declaration:</strong></p>
+            <p>I hereby declare that the information stated above are true to the best of my knowledge.</p>
+            <p>Place: <br>Date: <br>Signature: <br>(Karthick J)</p>
+        </div>
+    </div>
 </body>
 </html>
